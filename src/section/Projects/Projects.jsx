@@ -2,7 +2,7 @@
 import style from './Projects.style.module.css'
 import photo from '../../assets/1photo.jpg'
 import netflix from '../../assets/NETFLIX.png'
-import dash from '../../assets/dash.png'
+import shop from '../../assets/sssop.png'
 import sps from '../../assets/sps.jfif'
 import space from '../../assets/aaa.png'
 import ProjectsCards from '../../common/ProjectsCards'
@@ -31,14 +31,12 @@ const Projects = () => {
 
  
 <ProjectsCards
- src={dash}
- link='https://prahaldprojects.github.io/dash-board//'
- h3='dashbord'
- P= 'dash board'
+ src={shop}
+ link='https://prahaldprojects.github.io/shoper-/'
+ h3='e.commerce'
+ P= 'shoper'
  />
 
-
- 
 <ProjectsCards
  src={sps}
  link='https://prahaldprojects.github.io/game-R.P.S/'
